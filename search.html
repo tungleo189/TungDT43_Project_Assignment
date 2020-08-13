@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body class="all bg-secondary">
+    <div class="container bg-light">
+        <div>
+            <img class="img-fluid" src="https://qhkt.hochiminhcity.gov.vn/Media/Uploads/H%C3%ACnh%20Tin%20b%C3%A0i/YkienChuyenGia_03_11_2018/120_1.jpg">
+        </div>
+        <div>
+            <div>
+                <h1>Search Visitor</h1>
+            </div>
+            
+            <div class="container ">
+                <span>First name: </span>
+                <input class="mx-4" type="text" id="search-first-name" name="search-first-name">
+                <input class="mx-4" type="button" id="button-search" name="button-search" value="Search...    ">
+                <span>(Type First name Visitor and Click Search button)</span>
+            </div>
+            
+        </div>
+        <table class="table table-bordered my-2">
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Gender</th>
+                <th>Telephone</th>
+                <th>Email</th>
+                <th>You're in</th>
+                <th>Hobbies</th>
+                <th>Description</th>
+            </tr>
+            <tbody id="toShow"></tbody>
+        </table>
+    </div>
+    <script src="proass.js"></script>
+</body>
+</html>

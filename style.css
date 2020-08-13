@@ -1,0 +1,13 @@
+.all{
+    margin: auto;
+    width: 1000px;
+    height: 100%;
+}
+h1{
+    color: green;
+    border-style: ridge;
+}
+.errors{
+    color: red;
+    font-weight: 100;
+}
